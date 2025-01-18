@@ -1,0 +1,29 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Event Registration</title>  
+</head>  
+<body>  
+    <h1>Event Registration Form</h1>  
+  
+    <form action="/register" method="post">  
+        <label for="name">Full Name:</label><br>  
+        <input type="text" id="name" name="name" required><br>  
+  
+        <label for="email">Email:</label><br>  
+        <input type="email" id="email" name="email" required><br>  
+  
+        <label for="phone">Phone Number:</label><br>  
+        <input type="tel" id="phone" name="phone" required><br>  
+
+        <label for="event_id">Event:</label><br>
+        <select id="event_id" name="event_id" required>
+            <option value="2">How to build and deploy API</option>
+            <option value="1">Intro to machine learning</option>
+            <option value="3">Master the art of networking</option>
+        </select><br>
+  
+        <input type="submit" value="Register">  
+    </form>  
+</body>  
+</html>  
